@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "target": "ES2017", /*编译到ES2017版本的js*/
+    "module": "commonjs", /*使用commonjs规范*/
+    "sourceMap": true, /*生成map文件*/
+    "outDir": "./dist", /*输出文件夹*/
+    "strict": true, /*启用所有严格的类型检查选项*/
+    "noImplicitAny": true, /*允许any类型*/
+    "esModuleInterop": true,
+    // 用来让TS支持装饰器的使用
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true
+  },
+  "exclude": [
+    "node_modules"
+  ]
+}
